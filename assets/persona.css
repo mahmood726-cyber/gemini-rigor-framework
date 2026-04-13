@@ -1,0 +1,66 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Fira+Code:wght@400;700&family=Inter:wght@400;600;800&display=swap');
+
+:root {
+    --nyt-serif: 'Playfair Display', serif;
+    --nyt-sans: 'Inter', sans-serif;
+    --nyt-mono: 'Fira Code', monospace;
+    --persona-gold: #eab308;
+    --persona-blue: #3b82f6;
+    --persona-bg: #020617;
+    --persona-border: rgba(255,255,255,0.1);
+}
+
+body { 
+    background: var(--persona-bg); 
+    color: #f8fafc; 
+    font-family: var(--nyt-sans);
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h1, h2 { font-family: var(--nyt-serif); line-height: 1.1; }
+.kicker { font-size: 0.7rem; font-weight: 800; text-transform: uppercase; color: var(--persona-gold); letter-spacing: 0.2em; margin-bottom: 10px; display: block; }
+
+/* Scrollytelling Layout */
+.nyt-container { max-width: 1400px; margin: auto; padding: 0 40px; }
+.nyt-header { padding: 100px 0; max-width: 800px; }
+.nyt-header h1 { font-size: 4.5rem; margin: 0; }
+.nyt-header p { font-size: 1.4rem; color: #94a3b8; margin-top: 20px; line-height: 1.4; }
+
+.nyt-stage { 
+    display: grid; 
+    grid-template-columns: 1.5fr 1fr; 
+    gap: 60px; 
+    margin-bottom: 100px;
+    min-height: 600px; padding: 50px 0;
+}
+
+.nyt-viz { 
+    position: relative; 
+    background: var(--persona-slate-900); 
+    border-radius: 24px; 
+    border: 1px solid var(--persona-border);
+    overflow: hidden;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+}
+
+.nyt-copy { overflow-y: auto; padding-right: 20px; }
+.nyt-copy h3 { font-size: 1.8rem; margin-top: 0; }
+.nyt-copy p { font-size: 1.05rem; color: #94a3b8; line-height: 1.6; margin-bottom: 30px; }
+
+/* New Components */
+.stat-group { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-bottom: 40px; }
+.stat-box { border-top: 1px solid var(--persona-border); padding-top: 15px; }
+.stat-box .label { font-size: 0.65rem; text-transform: uppercase; color: #64748b; font-weight: 800; }
+.stat-box .number { font-family: var(--nyt-mono); font-size: 1.8rem; font-weight: 700; color: white; display: block; }
+
+.annotation-callout { 
+    position: absolute; 
+    padding: 10px; 
+    background: rgba(234, 179, 8, 0.1); 
+    border-left: 2px solid var(--persona-gold); 
+    font-size: 0.75rem; 
+    color: #facc15;
+    pointer-events: none;
+}
+

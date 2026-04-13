@@ -1,52 +1,32 @@
-﻿# Gemini Rigor Framework (GRF)
+# Gemini Rigor Framework (GRF) V3: Omega Edition
 
-A high-performance engineering harness for autonomous AI research agents (Gemini, Claude, Codex). 
+A high-performance engineering and visualization harness for autonomous AI research agents.
 
-## Overview
-The Gemini Rigor Framework was developed to solve "Implementation Theater"â€”the tendency for AI agents to prioritize narrative flair and marketing over functional logic and data integrity. By merging Gemini's 1M-token context window with rigorous engineering protocols, this framework enables **defendable, deterministic, and scalable** research at an industrial level.
+## New in V3 (Omega Edition)
+- **Scientific Cinema Aesthetic**: Advanced CSS glassmorphism, aura gradients, and NYT-style editorial typography.
+- **Scrollytelling Primitives**: Long-form narrative layouts with sticky visualization stages.
+- **Localized Rigor**: Built-in support for localized D3.js and Persona UI assets, ensuring 100% offline reliability.
+- **Interactive Voids**: Specialized D3 logic for mapping clinical "deserts" and cross-project discordance.
 
-## Key Protocols
+## Core Protocols
 ### 1. Gemini Specialization Protocol (GSP)
-- **Role Alignment**: Gemini acts as the **Strategic Lead** (Architectural Mapping & Scaling).
-- **Implementation Honesty**: Mandatory "Static vs. Dynamic" disclosure tables in all plans.
-- **Proof-of-Ingredient**: Automated verification of data existence before code implementation.
+- **Role Alignment**: Gemini acts as the **Strategic Lead** (Mapping & Scaling).
+- **Implementation Honesty**: Mandatory "Static vs. Dynamic" disclosure tables.
+- **Proof-of-Ingredient**: Automated verification of data existence before code-writing.
 
 ### 2. Universal Error Blocking (UEB)
-- **Null-Safety**: Hard-wired immunity to the `.toLowerCase()` and `.split()` logic bombs.
-- **Contract Integrity**: Mandatory maintenance of legacy aliases to prevent breaking existing test suites.
+- **Null-Safety**: Hard-wired immunity to `.toLowerCase()` and `.split()` logic bombs.
 - **Deep Rigor**: NumPy aliasing protection (`.copy()`) and numerical precision mandates (`.sf()`).
+- **Data Semantic Safety**: Replaces heuristic "magnitude guessing" with schema-aware logic.
 
-### 3. CLI Safety Layer
-- **OS-Agnostic Pathing**: Mandates raw strings (`r""`) and forward slashes to prevent "Backslash Traps" in PowerShell/Bash.
-- **Multi-Agent Lifecycle**: Includes the `browser_rotator.py` utility to prevent browser profile collisions when running multiple agents simultaneously.
-
-## Included Artifacts
-- `GEMINI.md`: Compact operational mandates for Gemini CLI.
-- `CLAUDE.md`: Rigor-aligned rules for Claude Code.
-- `CODEX.md`: Stability-focused rules for Codex/Copilot CLI.
-- `browser_rotator.py`: Python utility for automated browser engine switching (Chrome/Edge/Firefox).
-- `RESEARCH_EXCELLENCE.md`: Case study on scaling transportability models to 1,000+ locations.
+### 3. Browser & Server Resilience
+- **Origin Lock**: Forces `127.0.0.1` binding to prevent origin-mismatch security blocks.
+- **Browser Rotation**: Automatic switching between Chrome, Edge, and Firefox to prevent multi-agent collisions.
 
 ## Getting Started
-1. Copy the relevant `.md` files into your project root or agent configuration folder.
-2. Initialize the `browser_rotator.py` in your utility directory.
-3. Enforce the **Mandatory Selenium E2E** rule for all UI projects.
+1. Clone this repository.
+2. Link `assets/persona.css` and `assets/persona.js` to your project dashboards.
+3. Use `browser_rotator.py` for all automated UI verification.
 
 ## License
 MIT
-
-
-## Comparative Analysis: GRF vs. Industry Standards
-
-While frameworks like Microsoft AutoGen and CrewAI excel at autonomous task delegation, they often lack the domain-specific rigor required for high-stakes clinical research. The Gemini Rigor Framework (GRF) is one of the most specialized solutions for preventing "Implementation Theater" in data science.
-
-| Feature | AutoGen / CrewAI | Gemini Rigor Framework (GRF) |
-| :--- | :--- | :--- |
-| **Primary Goal** | General Task Automation | **Scientific Defense & Integrity** |
-| **Data Logic** | Happy-Path Logic | **GSP Schema-Aware Ingestion** |
-| **Scaling** | Token-Limited Context | **Omega-Scale (1M+ Token Discovery)** |
-| **Verification** | Unit Tests | **Selenium E2E + Guyot Benchmarking** |
-| **Integrity** | Exception Handling | **TruthCert Proof-Carrying Numbers** |
-
-## Why GRF is Unique
-The Gemini Rigor Framework solves the "Scale Paradox": it leverages the massive context of modern LLMs to map entire research portfolios (500+ repositories) while enforcing the surgical precision of production-grade engineering. It is a "Scientific Operating System" designed to ensure that AI-generated evidence is defendable, deterministic, and free from subtle logic bombs.
