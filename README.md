@@ -1,9 +1,9 @@
-# Gemini Rigor Framework (GRF)
+﻿# Gemini Rigor Framework (GRF)
 
 A high-performance engineering harness for autonomous AI research agents (Gemini, Claude, Codex). 
 
 ## Overview
-The Gemini Rigor Framework was developed to solve "Implementation Theater"—the tendency for AI agents to prioritize narrative flair and marketing over functional logic and data integrity. By merging Gemini's 1M-token context window with rigorous engineering protocols, this framework enables **defendable, deterministic, and scalable** research at an industrial level.
+The Gemini Rigor Framework was developed to solve "Implementation Theater"â€”the tendency for AI agents to prioritize narrative flair and marketing over functional logic and data integrity. By merging Gemini's 1M-token context window with rigorous engineering protocols, this framework enables **defendable, deterministic, and scalable** research at an industrial level.
 
 ## Key Protocols
 ### 1. Gemini Specialization Protocol (GSP)
@@ -34,3 +34,19 @@ The Gemini Rigor Framework was developed to solve "Implementation Theater"—the
 
 ## License
 MIT
+
+
+## Comparative Analysis: GRF vs. Industry Standards
+
+While frameworks like Microsoft AutoGen and CrewAI excel at autonomous task delegation, they often lack the domain-specific rigor required for high-stakes clinical research. The Gemini Rigor Framework (GRF) is one of the most specialized solutions for preventing "Implementation Theater" in data science.
+
+| Feature | AutoGen / CrewAI | Gemini Rigor Framework (GRF) |
+| :--- | :--- | :--- |
+| **Primary Goal** | General Task Automation | **Scientific Defense & Integrity** |
+| **Data Logic** | Happy-Path Logic | **GSP Schema-Aware Ingestion** |
+| **Scaling** | Token-Limited Context | **Omega-Scale (1M+ Token Discovery)** |
+| **Verification** | Unit Tests | **Selenium E2E + Guyot Benchmarking** |
+| **Integrity** | Exception Handling | **TruthCert Proof-Carrying Numbers** |
+
+## Why GRF is Unique
+The Gemini Rigor Framework solves the "Scale Paradox": it leverages the massive context of modern LLMs to map entire research portfolios (500+ repositories) while enforcing the surgical precision of production-grade engineering. It is a "Scientific Operating System" designed to ensure that AI-generated evidence is defendable, deterministic, and free from subtle logic bombs.
