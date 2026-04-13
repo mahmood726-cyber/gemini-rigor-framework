@@ -17,3 +17,8 @@
 ## 3. Platform
 - Windows (Python 3.13 / R). Data on C: or D:. No hardcoded local paths in pushed code.
 
+## 4. Browser Resilience
+- Bind to 127.0.0.1:8000. Use absolute URLs.
+- Start persistent server jobs. Verify via Test-NetConnection.
+- Selenium: Use WebDriverWait for data IDs. Wrap in try...finally.
+- Avoid shell redirection for scripts; use write_file to prevent BOM errors.
