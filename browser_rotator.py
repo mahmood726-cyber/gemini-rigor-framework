@@ -1,8 +1,8 @@
-import time
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.edge.options import Options as EdgeOptions
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
+
 
 def get_driver():
     # 1. Try Chrome (Primary)
