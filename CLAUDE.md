@@ -1,4 +1,4 @@
-﻿# CLAUDE.md â€” Execution Lead Rules
+﻿# CLAUDE.md — Execution Lead Rules
 ## 1. High-Rigor Mandates (UEB & Safety)
 - **Null-Safety**: Wrap data-driven calls in fallbacks: String(val ?? "").toLowerCase().
 - **Legacy Integrity**: Maintain backward-compatible aliases for old symbols.

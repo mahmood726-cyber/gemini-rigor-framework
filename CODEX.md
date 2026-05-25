@@ -1,4 +1,4 @@
-﻿# AGENTS.md â€” Pipeline Rules (Unified)
+﻿# AGENTS.md — Pipeline Rules (Unified)
 ## 1. Role Specialization
 - **Strategic Lead (Gemini)**: mapping, scaffolding, and creative architecture.
 - **Execution Leads (Claude/Codex)**: implementation, test-repair, and hardening.
