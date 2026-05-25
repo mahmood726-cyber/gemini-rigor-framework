@@ -1,5 +1,7 @@
 # Gemini Rigor Framework (GRF) V3: Omega Edition
 
+[![ci](https://github.com/mahmood726-cyber/gemini-rigor-framework/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/mahmood726-cyber/gemini-rigor-framework/actions/workflows/ci.yml) [![codeql](https://github.com/mahmood726-cyber/gemini-rigor-framework/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/mahmood726-cyber/gemini-rigor-framework/actions/workflows/codeql.yml) [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![python: 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
+
 A high-performance engineering and visualization harness for autonomous AI research agents.
 
 ## New in V3 (Omega Edition)
