@@ -1,9 +1,9 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Fira+Code:wght@400;700&family=Inter:wght@400;600;800&display=swap');
+/* External font import removed — use system fonts for offline reliability */
 
 :root {
-    --nyt-serif: 'Playfair Display', serif;
-    --nyt-sans: 'Inter', sans-serif;
-    --nyt-mono: 'Fira Code', monospace;
+    --nyt-serif: Georgia, 'Times New Roman', serif;
+    --nyt-sans: system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+    --nyt-mono: 'Courier New', Courier, monospace;
     --persona-gold: #eab308;
     --persona-blue: #3b82f6;
     --persona-bg: #020617;
